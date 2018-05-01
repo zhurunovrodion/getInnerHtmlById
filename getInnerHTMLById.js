@@ -16,7 +16,7 @@ function getInnerHTMLById(htmlString, id) {
 				isNoElementById = false;
 				let checkupArrayOfTags = [];
 				let countOfOpenTags = 0;
-				let countOfCloseTags = 0;
+				let countOfCloseTags = 0; 
 				checkupArrayOfTags.push(tagsArray[i]);
 				countOfOpenTags++;
 				for(let j = idIndex + 1; j < tagsArray.length; j++) {
