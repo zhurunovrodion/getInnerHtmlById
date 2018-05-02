@@ -51,7 +51,7 @@ function getInnerHTMLById(htmlString, id) {
 
 	function splitResultArrayOfHTML(arrayOfTags, firstIndex, lastIndex) {
 		let resultHTML = '';
-		for(let i = firstIndex; i <= lastIndex; i++) {
+		for(let i = firstIndex+1; i <= lastIndex-1; i++) {
 			resultHTML += arrayOfTags[i];
 		}
 		return resultHTML;
